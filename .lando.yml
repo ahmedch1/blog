@@ -9,6 +9,7 @@ services:
     hosts:
       - database
   database:
+    type: mariadb
     creds:
       user: symfony-blog
       password: symfony-blog
