@@ -1,7 +1,7 @@
 name: symfony-blog
 recipe: symfony
 config:
-  webroot: .
+  webroot: public
   php: '8.1'
 services:
   phpmyadmin:
